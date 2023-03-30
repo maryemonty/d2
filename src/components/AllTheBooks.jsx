@@ -14,7 +14,7 @@ class AllTheBooks extends Component {
                 <Container>
                     <Row>
                         {books.map((book, index) => (
-                            <Col>
+                            <Col key={index}>
                                 <Card className="d-flex">
                                     <Card.Body>
                                         <Card.Text>
